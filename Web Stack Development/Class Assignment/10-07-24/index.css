@@ -1,0 +1,106 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+header
+{
+    display :flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.859);
+    padding: 10px;
+
+}
+header div
+{
+    margin: 5px 10px;
+    padding: 2px;
+}
+
+header div a
+{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: large;
+    padding: 4px 15px;
+}
+header div a:hover
+{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 10px;
+    
+    padding: 4px 15px;
+}
+
+.logo a
+{
+    font-size: 2em;
+}
+.nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    
+    width: 45%;
+}
+
+.profile button
+{
+    margin: 7px auto;
+}
+
+.offcanvas
+{
+    margin: 0px;
+}
+.offcanvas-body
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+/* Main section */
+
+.signup
+{
+    background-image: url(/main_lambo2.webp);
+    background-size: cover;
+    background-position: bottom center;
+
+    position: relative;
+
+    min-height: 600px;
+}
+
+.one
+{
+    position: absolute;
+    left: 30px;
+    top: 70px;
+    font-size: 1.15rem;
+}
+
+
+.two
+{
+    position: absolute;
+    right: 80px;
+    bottom: 80px;
+}
+
+.two button
+{
+    padding: 10px 45px;
+    border-radius: 30px;
+}
+
+.two button:hover
+{
+    background-color: black;
+    color: aliceblue;
+}
